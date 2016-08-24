@@ -1,8 +1,8 @@
 #!/bin/bash
 ## on mac, need > for xxd output files
  
-WORKDIR="/scratch365/ImageFiles/newtest"
-DESTINATION="/scratch365/ImageFiles/test6"
+WORKDIR="/rootDir/ImageFiles/newtest"
+DESTINATION="/rootDir/ImageFiles/test6"
 
 cd $WORKDIR
 FOLDERS=$(ls $WORKDIR)
